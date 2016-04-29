@@ -1,28 +1,40 @@
-name: WildThink
-favicon: null
-layout_spectrum: 0.9747240643482655
-typography_spectrum: 0.10153040522709489
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.9296455
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
-  brandStrength: 0.28686619736254215
-  lightness: 0.9167424375191331
-  saturation: 0.5382184761110693
-  rhythmicContrast: 0.9305412981193513
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.5382184761110693
+  brandStrength: 0.2868661973625422
+  lightness: 0.9167424375191331
+  brandColors:
+    - '#C1CDD9'
+    - '#FFFFFF'
+    - '#10130C'
+    - '#496CA6'
+    - '#A19C87'
+  rhythmicContrast: 0.9305412981193513
+typography_spectrum: 0.1015304052270949
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: WildThink
