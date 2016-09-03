@@ -1,8 +1,30 @@
-layout_spectrum: 0.9296455
+typography_spectrum: 0.1015304052270949
+color:
+  saturation: 0.5382184761110693
+  brandStrength: 0.2868661973625422
+  lightness: 0.9167424375191331
+  brandColors:
+    - '#C1CDD9'
+    - '#FFFFFF'
+    - '#10130C'
+    - '#496CA6'
+    - '#A19C87'
+  rhythmicContrast: 0.9305412981193513
 opengraph:
   image: null
   type: null
   appId: null
+layout_spectrum: 0.9296455
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: WildThink
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
 collections:
   - index:
       path: /
@@ -15,26 +37,5 @@ collections:
       path: /rss.xml
       format: rss
       number: 10
+description: Wild times ahead
 purpose: []
-color:
-  saturation: 0.5382184761110693
-  brandStrength: 0.2868661973625422
-  lightness: 0.9167424375191331
-  brandColors:
-    - '#C1CDD9'
-    - '#FFFFFF'
-    - '#10130C'
-    - '#496CA6'
-    - '#A19C87'
-  rhythmicContrast: 0.9305412981193513
-typography_spectrum: 0.1015304052270949
-cta:
-  bucket: null
-  version: null
-  domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-favicon: null
-name: WildThink
